@@ -79,7 +79,7 @@ def SEIARD(y, t, N, beta, kappa, alpha, rho, gamma_I, gamma_A, delta_I):
     
     return [dSdt, dEdt, dIdt, dAdt, dRdt, dDdt]
 
-
+# 
 
 def SIRC(y,t, N, beta, gamma):
     """
