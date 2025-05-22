@@ -2,7 +2,10 @@
 
 ### 🌐 Visão Geral
 
-Este repositório reúne implementações clássicas e variantes modernas de modelos compartimentais para a modelagem de doenças infecciosas, com foco em contextos endêmicos e cenários aplicados. Os modelos foram implementados em código aberto, com exemplos numéricos e visuais, e visam auxiliar na compreensão, exploração e extensão desses sistemas dinâmicos.
+Este repositório reúne implementações clássicas e variantes modernas de modelos compartimentais para a modelagem de
+doenças infecciosas, com foco em contextos endêmicos e cenários aplicados. Os modelos foram implementados em 
+código aberto, com exemplos numéricos e visuais, e visam auxiliar na compreensão, exploração e extensão
+desses sistemas dinâmicos.
 
 ### 🌟 Objetivos
 
