@@ -18,19 +18,13 @@ desses sistemas dinâmicos.
 
 ## 📁 Estrutura do Projeto
 
-```bash
-modelos-endemicos/
+```
+Endemic_model/
 |
-├── models/               # Implementação dos modelos matemáticos (ODEs)
-│   ├── sir.py            # Modelo SIR
-│   ├── seir.py           # Modelo SEIR
-│   ├── seiard.py         # Modelo SEIARD
-│   └── utils.py          # Funções comuns de integração e plotagem
+├── model/               # Implementação dos modelos matemáticos (ODEs)
+│   ├── modelos_epidemiologicos.py            # Modelos
 |
-├── notebooks/            # Jupyter Notebooks com exemplos e exploração de dados
-│   ├── exemplo_sir.ipynb
-│   ├── exemplo_seir.ipynb
-│   └── ajuste_dados.ipynb
+├── notebooks/            # Jupyter Notebooks com exemplos 
 |
 ├── data/                 # Dados reais (se aplicável) ou sintéticos para simulação
 |
@@ -39,38 +33,29 @@ modelos-endemicos/
 ├── README.md             # Este documento
 └── requirements.txt      # Dependências do projeto
 ```
-
 ---
 
 ## 📓 Modelos Compartimentais Implementados
 
-### SIR
+### Equações diferenciais de base epidemiológica
 
-* Compartimentos: Suscetíveis, Infectados, Recuperados
-* Equações diferenciais de base epidemiológica
-
-### SEIR
-
-* Adição de fase latente (Expostos)
-* Útil para doenças com período de incubação
-
-### SEIARD
-
-* Expansão com Assintomáticos e Mortos
-* Modelo mais realista para epidemias como a COVID-19
+* SIR
+* SEIR
+* SEIAR
+* SEIARD
 
 ### Estimação de Parâmetros
 
-* Ajuste dos modelos a dados usando métodos de otimização (ex: curva de casos acumulados)
+* Ajuste dos modelos a dados usando métodos de otimização 
 
 ---
 
 ## 🔧 Tecnologias e Bibliotecas
 
 * Python 3.x
-* NumPy, SciPy, matplotlib, pandas
+* NumPy, SciPy, matplotlib, pandas,lmfit
 * Jupyter Notebook
-* (Opcional) Streamlit para interfaces interativas
+ Streamlit para interfaces interativas (building)
 
 ---
 
