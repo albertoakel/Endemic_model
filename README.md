@@ -43,10 +43,8 @@ Endemic_model/
 * [SEIR](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_02_SEIR.ipynb)
 * [SEIAR](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_03_SEAIR.ipynb)
 * [SEIARD](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_04_SEAIRD.ipynb)
+### Estimação de Parâmetros( Ajuste dos modelos a dados usando métodos de otimização)
 * [ COVID-19 no Pará com o Modelo SIRC](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Simulacao_SIRC_LMFIT_model.ipynb)
-### Estimação de Parâmetros
-
-* Ajuste dos modelos a dados usando métodos de otimização 
 
 ---
 
