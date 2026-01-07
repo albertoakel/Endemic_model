@@ -35,14 +35,14 @@ Endemic_model/
 ```
 ---
 
-## 📓 Modelos Compartimentais Implementados
+## 🧬 Modelos Compartimentais Implementados
 
-### Equações diferenciais de base epidemiológica
+### Equações diferenciais de base epidemiológica(notebooks)
 
-* SIR
-* SEIR
-* SEIAR
-* SEIARD
+* [SIR](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_01_SIR.ipynb)
+* [SEIR](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_02_SEIR.ipynb)
+* [SEIAR](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_03_SEAIR.ipynb)
+* [SEIARD](https://github.com/albertoakel/Endemic_model/blob/master/Notebooks/Modelo_04_SEAIRD.ipynb)
 
 ### Estimação de Parâmetros
 
